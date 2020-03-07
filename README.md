@@ -1,8 +1,8 @@
 # ![identify the image : Neuros_Network](https://colab.research.google.com/drive/1URhMOssSEy-yaRI_AGxYh8Ppykl8GETW)
-#The first line creates a Sequential model. This is the simplest kind of Keras
+*The first line creates a Sequential model. This is the simplest kind of Keras
 model for neural networks that are just composed of a single stack of layers connected
 sequentially. This is called the Sequential API.
-# Next, I build the first layer and add it to the model. It is a Flatten layer whose
+* Next, I build the first layer and add it to the model. It is a Flatten layer whose
 role is to convert each input image into a 1D array: if it receives input data X, it
 computes X.reshape(-1, 1). This layer does not have any parameters; it is just
 there to do some simple preprocessing. Since it is the first layer in the model, you
@@ -14,9 +14,9 @@ function. Each Dense layer manages its own weight matrix, containing all the
 connection weights between the neurons and their inputs. It also manages a vector
 of bias terms (one per neuron). When it receives some input data, it computes
 Equation 10-2.
-# Then I add a second Dense hidden layer with 100 neurons, also using the ReLU
+* Then I add a second Dense hidden layer with 100 neurons, also using the ReLU
 activation function.
-# Finally, I add a Dense output layer with 10 neurons (one per class), using the
+* Finally, I add a Dense output layer with 10 neurons (one per class), using the
 softmax activation function (because the classes are exclusive).
 so the model looks like this:
 
