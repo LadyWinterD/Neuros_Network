@@ -1,4 +1,4 @@
-# Neuros_Network
+# !Neuros_Network(https://colab.research.google.com/drive/1URhMOssSEy-yaRI_AGxYh8Ppykl8GETW)
 The first line creates a Sequential model. This is the simplest kind of Keras
 model for neural networks that are just composed of a single stack of layers connected
 sequentially. This is called the Sequential API.
@@ -21,6 +21,8 @@ softmax activation function (because the classes are exclusive).
 so the model looks like this:
 
 I trained the model 30 time, so the accuracy achieved 88.9%
+
+
 55000/55000 [=========] - 5s 100us/sample - loss: 0.2252 - accuracy: 0.9192 - val_loss: 0.2978 - val_accuracy: 0.8892.
 
 this is the input images for this model, 
