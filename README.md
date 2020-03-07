@@ -1,4 +1,4 @@
-# !Neuros_Network(https://colab.research.google.com/drive/1URhMOssSEy-yaRI_AGxYh8Ppykl8GETW)
+# ![Neuros_Network](https://colab.research.google.com/drive/1URhMOssSEy-yaRI_AGxYh8Ppykl8GETW)
 The first line creates a Sequential model. This is the simplest kind of Keras
 model for neural networks that are just composed of a single stack of layers connected
 sequentially. This is called the Sequential API.
