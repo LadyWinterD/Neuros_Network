@@ -25,8 +25,13 @@ I trained the model 30 time, so the accuracy achieved 88.9%
 
 this is the input images for this model, 
 ![model](https://github.com/LadyWinterD/Neuros_Network/blob/master/model.PNG?raw=true)
+
+
 this is the output for this model,
+
 ![inputdata](https://github.com/LadyWinterD/Neuros_Network/blob/master/MNIST.PNG?raw=true)
+
+
 you can see:
 for the first image it estimates that the probability of
 class 9 (ankle boot) is 96%, the probability of class 5 (sandal) is 3%, the probability of
