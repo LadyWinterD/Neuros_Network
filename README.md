@@ -26,9 +26,11 @@ I trained the model 30 times, so the accuracy achieved 88.9%
 
 
 55000/55000 [=========] - 5s 100us/sample - loss: 0.2252 - accuracy: 0.9192 - val_loss: 0.2978 - val_accuracy: 0.8892.
+![model](https://github.com/LadyWinterD/Neuros_Network/blob/master/model.PNG?raw=true)
 
 this is the input images for this model, 
-![model](https://github.com/LadyWinterD/Neuros_Network/blob/master/model.PNG?raw=true)
+
+
 
 
 this is the output for this model,
